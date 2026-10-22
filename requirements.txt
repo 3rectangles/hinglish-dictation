@@ -1,0 +1,10 @@
+# Python 3.12, Apple Silicon (MPS). Installed into ~/srota-venv by scripts/setup.sh.
+torch>=2.4          # MPS backend; CPU x86 wheels will not work
+torchaudio>=2.4
+transformers>=4.45  # Whisper large-v3 + <|mixedcode|> token support
+soundfile>=0.12     # audio IO
+numpy>=1.26
+indic-transliteration>=2.3   # Devanagari -> ITRANS romanization
+huggingface_hub>=0.24        # model download in setup.sh
+
+# System: ffmpeg (brew install ffmpeg), uv (brew install uv)

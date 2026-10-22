@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Models and audio are large and machine-specific — never commit them
+*.aiff
+*.wav
+*.webm
+*.mp3
+models/
+
+# Logs and backups
+*.log
+*.bak-*
+.DS_Store
